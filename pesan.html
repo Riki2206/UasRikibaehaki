@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Indonesian Tourism</title>
+    <link rel="stylesheet" href="indonesiatourism1.css">
+</head>
+<body>
+    <nav>
+        <div class="color: black;">
+            <p>Indonesian Tourism</p>
+        </div>
+
+         <ul class="nav-links">
+            <li><a href="indonesiatourism1.html">Beranda</a></li>
+            <li><a href="kebudayaan.html">Kebudayaan</a></li>
+            <li><a href="wisata.html">Tempat Wisata</a></li>
+            <li><a href="hotel1.html">Hotel</a></li>
+        </ul>    
+      </nav>
+
+<h1>Checkout</h1>
+  <form id="checkoutForm">
+    <div class="form-group">
+      <label for="name">Nama Lengkap:</label>
+      <input type="text" id="name" name="name" required>
+    </div>
+    <div class="form-group">
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required>
+    </div>
+    <div class="form-group">
+      <label for="check-in">Check-in:</label>
+      <input type="date" id="check-in" name="check-in" required>
+    </div>
+    <div class="form-group">
+      <label for="check-out">Check-out:</label>
+      <input type="date" id="check-out" name="check-out" required>
+    </div>
+    <button class="btn-submit" type="submit">Pesan Sekarang</button>
+  </form>
+
+<footer>
+<p>&copy; 2024 Indonesian Tourism. All rights reserved.</p>
+</footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
+
+<style>
+  
+  h1 {
+  text-align: center;
+}
+
+form {
+  max-width: 400px;
+  margin: 0 auto 77px;
+  background-color: #fff;
+  padding: 20px;
+  border: 1px solid #ddd;
+}
+
+.form-group {
+  margin-bottom: 25px;
+}
+
+label {
+  display: block;
+  font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="date"] {
+  width: 95%;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+button.btn-submit {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  background-color: #54B4D3;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button.btn-submit:hover {
+  background-color: #555;
+}
+
+@media screen and (max-width: 600px) {
+  .hotel {
+    width: 100%;
+  }
+}
+
+</style>
